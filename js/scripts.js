@@ -66,6 +66,7 @@ $ (document).ready(function(){
     if (!companySizeAnswer && !frontOrBackAnswer && !mobileAnswer && !interactiveAnswer && !demandAnswer && !osPreferenceAnswer) {
       alert("Please answer at least one question.")
     } else {
+      $("#trackForm").hide();
       $("img").hide();
       $("#track").empty().append(trackSuggestion);
       $("#result").show();
