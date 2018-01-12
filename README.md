@@ -6,7 +6,9 @@
 
 ## Description
 
-_This is a track suggester that asks a user a series of questions and suggests which language track would be a good match for them based on their answers._
+_This is the Epicodus weekly project for week 2 of the Intro to Programming course.
+
+The track suggester is a survey that asks a user a series of questions and suggests which programming language track would be a good match for them based on their answers.  It demonstrates knowledge of forms, jQuery, and branching._
 
 ## Setup/Installation Requirements
 
