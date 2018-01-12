@@ -5,9 +5,128 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Track Suggester</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Track Suggester</h1>
+      <h3>Answer the following questions to determine which computer programming language track to take.</h3>
+      <div>
+        <form id="trackForm">
+          <div class="question">
+            <p>1. What size company would you like to work for?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="companySize" value="large">
+                Large Company
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="companySize" value="small">
+                Small Company
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="companySize" value="either">
+                No Preference
+              </label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>2. Are you more interested in front end or back end development?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="frontOrBack" value="front">
+                Front End
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="frontOrBack" value="back">
+                Back End
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="frontOrBack" value="either">
+                Full Stack or No Preference
+              </label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>3. Are you interested in developing for mobile applications?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="mobile" value="yes">
+                Yes
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="mobile" value="no">
+                No
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="mobile" value="either">
+                No Preference
+              </label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>4. Are you interested in developing interactive websites?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="interactive" value="yes">
+                Yes
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="interactive" value="no">
+                No
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="interactive" value="either">
+                No Preference
+              </label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>5. Is it important to you to learn a language that is in high demand?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="demand" value="yes">
+                Yes
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="demand" value="no">
+                No
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="demand" value="either">
+                No Preference
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
 
   </body>
 </html>
