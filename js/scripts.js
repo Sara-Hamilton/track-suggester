@@ -63,8 +63,21 @@ $ (document).ready(function(){
       var trackSuggestion = "Ruby"
     }
 
+    $("img").hide();
     $("#track").empty().append(trackSuggestion);
     $("#result").show();
+
+    if (trackSuggestion === "CSS/Design") {
+      $(".css").show();
+    } else if (trackSuggestion === "C#") {
+      $(".cSharp").show();
+    } else if (trackSuggestion === "Java") {
+      $(".java").show();
+    } else if (trackSuggestion === "PHP") {
+      $(".php").show();
+    } else if (trackSuggestion === "Ruby") {
+      $(".ruby").show();
+    }
 
     event.preventDefault();
   });

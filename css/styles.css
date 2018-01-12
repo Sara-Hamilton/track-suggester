@@ -1,3 +1,7 @@
-#result {
+#result, .cSharp, .css, .java, .php, .ruby {
   display: none;
+}
+
+#track {
+  font-weight: bold;
 }
