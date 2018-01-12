@@ -1,7 +1,26 @@
 #result, img {
   display: none;
+  margin: auto;
+  width: 50%;
+  text-align: center;
 }
 
 #track {
   font-weight: bold;
+}
+
+h4, h2, p {
+  color: #313b54;
+}
+
+.serif {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 7rem;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+body {
+  background-color: #78a1bb;
 }
