@@ -72,15 +72,15 @@ $ (document).ready(function(){
       $("#result").show();
 
       if (trackSuggestion === "CSS/Design") {
-        $(".css").show();
+        $(".css").fadeIn();
       } else if (trackSuggestion === "C#") {
-        $(".cSharp").show();
+        $(".cSharp").fadeIn();
       } else if (trackSuggestion === "Java") {
-        $(".java").show();
+        $(".java").fadeIn();
       } else if (trackSuggestion === "PHP") {
-        $(".php").show();
+        $(".php").fadeIn();
       } else if (trackSuggestion === "Ruby") {
-        $(".ruby").show();
+        $(".ruby").fadeIn();
       }
     }
 
