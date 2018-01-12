@@ -8,6 +8,12 @@ $ (document).ready(function(){
     var demandAnswer = $("input:radio[name=demand]:checked").val();
     var osPreferenceAnswer = $("input:radio[name=osPreference]:checked").val();
 
+    var cSharp = 0;
+    var java = 0;
+    var php = 0;
+    var ruby = 0;
+    var design = 0;
+
   if (frontOrBackAnswer === "front") {
     var trackSuggestion = "CSS/Design"
   }
