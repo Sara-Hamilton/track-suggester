@@ -22,5 +22,18 @@ h4, h2, p {
 }
 
 body {
-  background-color: #78a1bb;
+  background-color: #7593a5;
+}
+
+input[type=radio]:checked {
+  background-color: red;
+  color: red;
+}
+
+input {
+  color: red;
+}
+
+.radio-red [type="radio"];checked+label:after {
+  background-color: red;
 }
