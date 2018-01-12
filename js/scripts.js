@@ -17,7 +17,7 @@ $ (document).ready(function(){
       cSharp +=1, java +=1, php +=1
     }
     if (companySizeAnswer === "small") {
-      ruby +=2
+      ruby +=3
     }
 
     if (frontOrBackAnswer === "back") {
@@ -25,7 +25,7 @@ $ (document).ready(function(){
     }
 
     if (mobileAnswer === "yes") {
-      java +=2
+      java +=5
     }
 
     if (interactiveAnswer === "yes") {
@@ -46,7 +46,7 @@ $ (document).ready(function(){
       ruby +=1
     }
     if (osPreferenceAnswer === "windows") {
-      cSharp +=2
+      cSharp +=3
     }
 
     var highestValue = Math.max(cSharp, php, ruby, java);
@@ -62,11 +62,6 @@ $ (document).ready(function(){
     } else {
       var trackSuggestion = "Ruby"
     }
-
-
-    console.log(cSharp, php, ruby, java)
-    console.log(companySizeAnswer)
-    console.log(Math.max(cSharp, php, ruby, java))
 
     $("#track").empty().append(trackSuggestion);
     $("#result").show();
