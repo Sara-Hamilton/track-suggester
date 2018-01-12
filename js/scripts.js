@@ -14,13 +14,56 @@ $ (document).ready(function(){
     var ruby = 0;
     var design = 0;
 
-  if (frontOrBackAnswer === "front") {
-    var trackSuggestion = "CSS/Design"
-  }
+    if (companySizeAnswer = "large") {
+      cSharp +=1, java +=1, php +=1
+    }
+    if (companySizeAnswer = "small") {
+      ruby +=1
+    }
+    if (companySizeAnswer = "either") {
+      cSharp +=1, java +=1, php +=1, ruby +=1
+    }
 
-  $("#track").empty().append(trackSuggestion);
-  $("#result").show();
+    if (frontOrBackAnswer = "front") {
+      design +=10
+    }
 
-  event.preventDefault();
+    if (mobileAnswer = "yes") {
+      java +=1
+    }
+
+    if (interactiveAnswer = "yes") {
+      ruby +=1
+    }
+    if (interactiveAnswer = "no") {
+      ruby -=1
+    }
+
+    if (demandAnswer = "yes") {
+      cSharp +=1, java +=1, php +=1
+    }
+    if (demandAnswer = "no") {
+      ruby +=1
+    }
+
+    if (osPreferenceAnswer = "mac") {
+      ruby +=1
+    }
+    if (osPreferenceAnswer = "windows") {
+      cSharp +=1
+    }
+
+
+
+
+
+    if (frontOrBackAnswer === "front") {
+      var trackSuggestion = "CSS/Design"
+    }
+
+    $("#track").empty().append(trackSuggestion);
+    $("#result").show();
+
+    event.preventDefault();
   });
 });
