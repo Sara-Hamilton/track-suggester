@@ -53,14 +53,19 @@ $ (document).ready(function(){
 
     if (frontOrBackAnswer === "front") {
       var trackSuggestion = "CSS/Design"
+      var link = '<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a>'
     } else if (cSharp === highestValue) {
       var trackSuggestion = "C#"
+      var link = '<a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a>'
     } else if (java === highestValue) {
       var trackSuggestion = "Java"
+      var link = '<a href="https://www.oracle.com/java/index.html" target="_blank">Java</a>'
     } else if (php === highestValue) {
       var trackSuggestion = "PHP"
+      var link = '<a href="http://www.php.net/" target="_blank">PHP</a>'
     } else {
       var trackSuggestion = "Ruby"
+      var link = '<a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a>'
     }
 
     if (!companySizeAnswer && !frontOrBackAnswer && !mobileAnswer && !interactiveAnswer && !demandAnswer && !osPreferenceAnswer) {
@@ -68,7 +73,7 @@ $ (document).ready(function(){
     } else {
       $("#trackForm").hide();
       $("img").hide();
-      $("#track").empty().append(trackSuggestion);
+      $("#link").empty().append(link);
       $("#result").show();
 
       if (trackSuggestion === "CSS/Design") {
