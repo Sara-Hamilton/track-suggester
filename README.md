@@ -18,6 +18,8 @@ The track suggester is a survey that asks a user a series of questions and sugge
 
 * _open in browser_
 
+view on [GitHub pages](https://sara-hamilton.github.io/track-suggester/)
+
 ## Support and contact details
 
 _To suggest changes, submit a pull request in the GitHub repository._
